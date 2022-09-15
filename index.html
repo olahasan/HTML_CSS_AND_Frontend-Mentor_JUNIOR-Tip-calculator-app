@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="css/main.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="all">
+    <div class="container">
+      <div class="title">
+        <span>SPlI</span>
+        <span>TTER</span>
+      </div>
+      <div class="card">
+        <div class="left">
+          <header>
+            <h3>Bill</h3>
+            <form action="" class="Bill_form">
+              <p id="form_bill" class="hidden">can not be 0 or negative value</p>
+              <input type="number" value="0" placeholder="0" id="Bill" class="Bill"/>
+            </form>
+          </header>
+          <section>
+            <p>Select Tip %</p>
+            <div class="per">
+              <button id="tip5">5%</button>
+              <button id="tip10">10%</button>
+              <button id="tip15">15%</button>
+              <button id="tip25">25%</button>
+              <button id="tip50">50%</button>
+              <input type="number" id="Custom" value="Custom" placeholder="Custom"  min="0"/>
+            </div>
+          </section>
+          <footer>
+            <p>Number of People</p>
+            <form action="" class="form">
+              <p id="form_People" class="hidden">can not be 0 or negative value</p>
+              <input type="number" value="0" placeholder="0" id="Number_of_People" class="Number_of_People"/>
+            </form>
+          </footer>
+        </div>
+        <div class="right">
+          <div class="top">
+            <div class="left">
+              <span>Tip Amount</span>
+              <span>/ person</span>
+            </div>
+            
+            <div class="right">
+              <button id="Tip_Amount">$0.00</button>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="left">
+              <span>Total</span>
+              <span>/ person</span>
+            </div>
+            
+            <div class="right">
+              <button id="Total">$0.00</button>
+            </div>
+          </div>
+          <form action="" class="reset">
+            <input type="text" value="Reset" id="input_reset"/>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+
+  
+<script src="main.js"></script>
+</body>
+</html>
